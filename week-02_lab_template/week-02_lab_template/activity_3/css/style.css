@@ -1,0 +1,26 @@
+body{
+    font-family: Calibri, sans-serif;
+}
+
+.city-label{
+    font-size: 11px;
+    text-anchor: middle;
+}
+
+#heading{
+    text-align: center;
+    width: 100%;
+}
+
+svg{
+    display: block;
+    margin: auto;
+}
+
+#heading p {
+    color: orange;
+}
+
+#heading h1{
+    color: orange;
+}

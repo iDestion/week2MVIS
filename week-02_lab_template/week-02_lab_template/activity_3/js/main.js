@@ -38,5 +38,5 @@ d3.csv("data/cities.csv", (row) => {
     return row;
 }).then(function(data){
    console.log(data);
-   d3.select("body").append("p").text(data.length);
+   d3.select("div#heading").append("p").text("The total number of cities in the data: " + data.length);
 });
